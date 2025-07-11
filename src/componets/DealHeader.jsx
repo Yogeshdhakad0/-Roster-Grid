@@ -19,7 +19,7 @@ const DealHeader = () => {
           <img
             src={imge}
             alt="Office Illustration"
-
+style={{ clipPath: 'inset(10px 10px 10px 10px)' }} 
             className="w-full rounded-xl shadow-xl bg-transparent   sm:h-100  "
           />
         </div>
@@ -44,6 +44,8 @@ export default DealHeader
 
 // import { Button } from 'antd'
 // import React from 'react'
+// import imge from '../assets/headerscrenn-removebg-preview.png'; // from src
+
 
 // const DealHeader = () => {
 //   return (
@@ -62,10 +64,10 @@ export default DealHeader
 //         {/* Right Image Section */}
 //         <div className="lg:w-1/2 w-full flex justify-center">
 //           <img
-//             src="/src/assets/headerscrenn-removebg-preview.png"
+//             src={imge}
 //             alt="Office Illustration"
-          
-//             className="w-full max-w-md lg:max-w-full rounded-2xl shadow-2xl    bg-blue-500   object-contain"
+//             style={{ clipPath: 'inset(10px 10px 10px 10px)' }} 
+//             className="w-full max-w-md lg:max-w-full rounded-2xl shadow-2xl   object-contain"
 //           />
 //         </div>
 //       </div>
