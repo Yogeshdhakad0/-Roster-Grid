@@ -1,6 +1,7 @@
 import { Button } from 'antd'
 import React from 'react'
 
+
 const DealHeader = () => {
   return (
     <header className="  bg-gradient-to-t from-blue-200 to-white   py-20 md:py-28">
