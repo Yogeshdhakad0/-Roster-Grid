@@ -1,5 +1,6 @@
 import { Button } from 'antd'
 import React from 'react'
+import imge from '../assets/headerscrenn-removebg-preview.png'; // from src
 
 
 const DealHeader = () => {
@@ -16,7 +17,7 @@ const DealHeader = () => {
 
         <div className="lg:w-1/2  h-full lg:h-80  bg-transparent    ">
           <img
-            src="/src/assets/headerscrenn-removebg-preview.png"
+            src={imge}
             alt="Office Illustration"
 
             className="w-full rounded-xl shadow-xl bg-transparent   sm:h-100  "
